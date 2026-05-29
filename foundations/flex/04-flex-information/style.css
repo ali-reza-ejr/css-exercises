@@ -1,6 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  text-align: center;
+  text-align: center;  /* Noice 1*/
 }
 
 img {
@@ -22,10 +22,6 @@ img {
 
 .item{
   max-width: 200px;
-}
-
-.text{
-  margin-top: 6px;
 }
 
 /* do not edit this footer */
