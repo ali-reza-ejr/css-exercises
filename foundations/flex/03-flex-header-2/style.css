@@ -13,29 +13,19 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  padding: 8px;  
 }
-
-.left-part{
+.left-part, .right-part{
   display: flex;
-  margin-left: 8px ;
-}
-.link-list{
-
+  align-items: center;
+  gap: 16px;  /* <--- */
 }
 .links{
   display: flex;
-}
-.links li{
-  margin: 0px 16px;
-}
-.right-part{
-  display: flex;
-  margin-right: 8px;
-  align-items: center;
-}
-.right-part div{
-  margin: 0px 0px 0px 16px;
+  margin: 0;  /* <--- */
+  padding: 0; /* <--- */
+  gap: 16px;  /* <--- */
 }
 .profile-image {
   background: rebeccapurple;
