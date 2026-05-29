@@ -12,8 +12,31 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;  
 }
 
+.left-part{
+  display: flex;
+  margin-left: 8px ;
+}
+.link-list{
+
+}
+.links{
+  display: flex;
+}
+.links li{
+  margin: 0px 16px;
+}
+.right-part{
+  display: flex;
+  margin-right: 8px;
+  align-items: center;
+}
+.right-part div{
+  margin: 0px 0px 0px 16px;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
