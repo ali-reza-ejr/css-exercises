@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;  
+  min-height: 100vh;   /*Gemini suggests, instead of height: 100vh */
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; Gemini suggests,
+  This means the page will default to the full screen height, but if content overflows, the browser will allow normal scrolling. */
   font-family: Roboto, sans-serif;
 }
 
