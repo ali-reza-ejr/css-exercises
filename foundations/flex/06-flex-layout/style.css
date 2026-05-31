@@ -27,17 +27,17 @@ input {
 
 /* My Additions */
 body {
-  display: flex;             /* Google helps*/
-  flex-direction: column;    /* Google helps*/
+  display: flex;       /* for footer at bottom*/
+  flex-direction: column; /* for footer at bottom*/
 }
 
 .content{
-  flex: 1 0 auto;           /* Google helps*/
+  flex: 1;           /* for footer at bottom*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 16px;
 }
 
 .header, .footer{
@@ -49,23 +49,21 @@ body {
 .header ul, .footer ul{
   display: flex;
   list-style-type: none;
-  gap: 16px;
+  margin: 0;
   padding: 0;
+  gap: 16px;
   /* margin: 16px 16px ; Always use padding on containers to create space inside them. */
 }
 
 .header a, .footer a{
     text-decoration: none;
-    color: #888d92;
-    font-weight: 500;
+    color: #666;
 }
 
 .footer{
   background-color: #eeeeee;
-  flex-shrink: 0;         /* Google helps*/
 }
 
 button{
   padding: 7px 14px;
-  font-weight: 500;
 }
