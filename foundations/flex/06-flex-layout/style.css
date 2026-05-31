@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  height: 100vh;  
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
@@ -23,4 +23,48 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* My Additions */
+body {
+  display: flex;             /* Google helps*/
+  flex-direction: column;    /* Google helps*/
+}
+
+.content{
+  flex: 1 0 auto;           /* Google helps*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul, .footer ul{
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  padding: 0;
+  margin: 16px 16px ;
+}
+
+.header a, .footer a{
+    text-decoration: none;
+    color: #888d92;
+    font-weight: 500;
+}
+
+.footer{
+  background-color: #eeeeee;
+  flex-shrink: 0;         /* Google helps*/
+}
+
+button{
+  padding: 7px 14px;
+  font-weight: 500;
 }
